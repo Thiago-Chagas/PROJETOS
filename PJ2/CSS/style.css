@@ -1,0 +1,219 @@
+@import url('https://fonts.googleapis.com/css2?family=Prata&display=swap');
+@import url('https://fonts.googleapis.com/css2?family= Inter & display=swap');
+
+body{
+    background-color: black;
+}
+
+/* CABEÇALHO */
+
+.cabecalho{
+    display: flex;
+    font-family: "Prata";
+}
+
+.cabecalho h1{
+    color: gray;
+    font-size: 20px;
+    width: 14%;
+    margin-left: 5% ;
+}
+
+.cabecalho ul{
+    display: flex;
+    list-style: none;
+    margin-left: 20%;
+    margin-right: 20%;
+    color: gray;
+}
+
+.cabecalho ul li{
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.cabecalho button{
+    color: gray;
+    background-color: rgba(255, 255, 0, 0.82);
+    right: 30px;
+    width: 120px;
+    margin-right: 5%;
+    cursor: pointer;
+    border-radius: 0%;
+    border: none;
+    font-size: 15px;
+}
+
+/* PRIMEIRO BLOCO */
+.texto1 {
+    font-family: 'Inter';
+    margin-left: 5%;
+}
+
+.texto1 h1{
+    color: white;
+    font-size: 60px;
+    width: 48%;
+    margin-top: 5%;
+}
+
+.texto1 p{
+    color: gray;
+    width: 48%;
+    font-size: 20px;
+}
+
+/* IMAGENS */
+
+.imagens{
+    display: flex;
+    margin-top: 4%;
+}
+
+.img1{
+    margin-left: 5%;
+    width: 45%;
+}
+
+
+.img2{
+    margin-left: 5%;
+    width: 38%;
+    margin-right: 5%;
+}
+
+
+/* TEXTOS */
+
+.textos{
+    display: flex;
+    margin-left: 5%;
+}
+
+.texto2{
+    font-family: 'Inter';
+    width: 39%;
+}
+
+.textos .texto2 h1{
+    color: white;
+}
+
+.textos .texto2 p{
+    color: gray;
+}
+
+.texto3{
+    font-family: 'Inter';
+    width: 39%;
+    margin-left: 13% ;
+    padding-left: 10px;
+    font-weight: lighter;
+}
+
+.textos .texto3 h1{
+    color: white;
+}
+
+.textos .texto3 p{
+    color: gray;
+}
+
+/* TEXTO4 */
+
+.texto4 {
+    background-color: rgb(92, 92, 92);
+    font-family: 'Inter';
+    display:flex;
+    margin: 0;
+}
+
+.texto4 .coluna1 h1{
+    margin-left: 10%;
+    width: 80%;
+    font-size: 43px;
+    color: white;
+}
+
+.texto4 .coluna1 p{
+    color: rgb(170, 170, 170);
+    width: 78%;
+    margin-left: 10%;
+}
+
+.texto4 .coluna2 {
+    margin-top: 1%;
+}
+
+.texto4 .coluna2 p{
+    color: rgb(170, 170, 170);
+    width: 75%;
+    margin-left: 12%;
+}
+
+
+/* TEXTO5 */
+
+.texto5{
+    font-family: 'Inter';
+    background-color: black;
+}
+
+.texto5 h1{
+    color:white;
+    margin-left: 5%;
+    font-size: 40px;
+    width: 45%;
+}
+
+.texto5 p{
+    color: gray;
+    width: 40%;
+    margin-left: 5%;
+}
+
+.texto5 button{
+    margin-left: 5%;
+    margin-top: 1%;
+    border: none;
+    cursor: pointer;
+    color: gray;
+    background-color: rgba(255, 255, 0, 0.82);
+    width: 120px;
+    height: 45px;
+    font-size: 16px;
+    margin-bottom: 4%;
+}
+
+.rodape{
+    background-color: rgb(92, 92, 92);
+    font-family: 'Inter';
+    display: flex;
+    align-items: center;
+}
+
+.rodape h1 {
+    margin-left: 5%;
+    color: rgb(163, 161, 161);
+    font-size: 20px;
+    width: 14%;
+}
+
+.rodape .icones{
+    font-size: 22px;
+    color: white;
+    justify-content: right;
+    margin-left: 63%;
+}
+
+.rodape .icones i{
+    padding: 0px 10px;
+}
+
+@media (max-width:576px){
+    .texto1 h1{
+        color: rgb(182, 6, 6);
+        font-size: 20px;
+        width: 100%;
+    }
+}
